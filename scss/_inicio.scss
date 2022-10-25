@@ -1,0 +1,23 @@
+/* Pagina inicio */
+@media screen and (max-width: 768px) {
+    .main-inicio{
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .i-3{
+        flex-direction: column-reverse;
+    } 
+    .i-2{
+        flex-direction: column;
+    } 
+}
+
+.inicio {
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

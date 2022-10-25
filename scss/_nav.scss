@@ -1,0 +1,33 @@
+/* Estilos del Navbar */
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+}
+
+.nav-item:hover {
+    border: solid;
+    border: 0 0 3px 0;
+    border-color: white;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    animation-name: entrada-superior;
+    
+    
+    
+
+    border: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: white;
+}

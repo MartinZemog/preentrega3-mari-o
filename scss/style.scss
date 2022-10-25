@@ -9,23 +9,25 @@ body {
     "footer"
     
     ;
+
+    nav {
+        grid-area: nav;
+    }
+    
+    header {
+        grid-area: header;
+    }
+    
+    main {
+        grid-area: main;
+    }
+    
+    footer {
+        grid-area: footer;
+    }
 }
 
-nav {
-    grid-area: nav;
-}
 
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
 
 @import "nav";
 @import "footer";

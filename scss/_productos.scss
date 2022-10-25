@@ -1,23 +1,20 @@
 /* Pagina productos */
-.productos {
-    padding: 16px;
+@import "variables" ;
 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.productos {
+    padding: $px*4;
+
+    @include flexible(flex, row , space-evenly, center ) ;
 }
 
 @media screen and (max-width: 480px) {
     .productos {
-        padding: 16px;
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        padding: $px*4;
+    
+        @include flexible(flex, column , space-evenly, center ) ;
     }
     img {
-        padding: 16px;
+        padding: $px*4;
     }
 
 }

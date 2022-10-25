@@ -1,13 +1,14 @@
 /* Pagina Contacto */
+@import "variables" ;
+
 .contacto {
-    padding: 12px;
+    padding: $px*3;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+    @include flexible(flex, column , center, center)  ;
+
+    .contacto-2 {
+        padding: $px*3;
+    }
+    
 }
 
-.contacto-2 {
-    padding: 12px;
-}

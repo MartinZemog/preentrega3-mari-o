@@ -1,8 +1,16 @@
 /* Pagina inicio */
+@import "variables" ;
+
 @media screen and (max-width: 768px) {
     .main-inicio{
         text-align: center;
     }
+}
+
+.inicio {
+    padding: $px*6;
+
+    @include flexible(flex, row , center , center ) ;
 }
 
 @media  screen and (max-width: 480px) {
@@ -14,10 +22,3 @@
     } 
 }
 
-.inicio {
-    padding: 24px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}

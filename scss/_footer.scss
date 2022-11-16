@@ -1,34 +1,29 @@
 /* Estilos del Footer */
-@import "variables" ;
+
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flexible(flex, row , space-between , center ) ;
 
     ul li {
         display: inline-block;
+        a svg {
+            margin: 8px;
+            color: white; 
+                &:hover {
+                    color: aqua;
+
+                    animation-name: rotar;
+                    animation-duration: 1.5s;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-in-out;
+
+                    transform:rotateY(360deg) ;
+                }
+            }
+        }
     }
 
-    div :nth-child(1) {
-        text-align: center;
-    }
     
-    ul li a svg {
-        margin: 8px; 
-    }
-
-    ul li a svg:hover {
-        animation-name: rotar;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
-        
-        transform:rotateY(360deg) ;
-    }
-}
-
-
 
 @keyframes rotar{
     0% {

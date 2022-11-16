@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(79, 79, 79, 0.225);
+
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header" 
+    "main"
+    "footer"
+    
+    ;
+
+    nav {
+        grid-area: nav;
+    }
+    
+    header {
+        grid-area: header;
+    }
+    
+    main {
+        grid-area: main;
+    }
+    
+    footer {
+        grid-area: footer;
+    }
+}

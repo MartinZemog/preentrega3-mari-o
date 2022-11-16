@@ -1,5 +1,4 @@
 /* Estilos del Navbar */
-@import "variables" ;
 
 .navbar {
     position: sticky;
@@ -10,24 +9,14 @@
         border: solid;
         border: 0 0 3px 0;
         border-color: white;
-    }
 
-    .nav-item:hover {
         transform: scale(1.1);
         transition-property: all;
         transition-timing-function: ease-in-out;
         transition-duration: 0.5s;
         animation-name: entrada-superior;
-        
-        
-        
-    
-        border: solid;
-        border-top: 0px;
-        border-left: 0px;
-        border-right: 0px;
-        border-color: white;
     }
+
 }
 
 .navbar-collapse {
